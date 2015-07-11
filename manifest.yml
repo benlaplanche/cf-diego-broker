@@ -1,0 +1,9 @@
+---
+applications:
+- name: diego-sb
+  memory: 512M
+  host: diego-sb
+  command: cf-diego-broker
+  env:
+    CF_USERNAME: $CF_USERNAME
+    CF_PASSWORD: $CF_PASSWORD

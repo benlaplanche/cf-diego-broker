@@ -1,0 +1,22 @@
+{
+	"ImportPath": "github.com/benlaplanche/cf-diego-broker",
+	"GoVersion": "go1.4.2",
+	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "215affda49addc4c8ef7e2534915df2c8c35c6cd"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Rev": "8096f47503459bcc74d1f4c487b7e6e42e5746b5"
+		},
+		{
+			"ImportPath": "github.com/pivotal-cf/brokerapi",
+			"Rev": "15b0ee33a737ef05859cfaa916b04a3dff10d66e"
+		},
+		{
+			"ImportPath": "github.com/pivotal-golang/lager",
+			"Rev": "ce9effb2d1062e2d81333f942df0549706901b1b"
+		}
+	]
+}
